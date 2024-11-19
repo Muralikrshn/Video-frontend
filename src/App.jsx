@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 import "./App.css";
 
 // Initialize socket connection
-const socket = io("https://video-frontend-eosin.vercel.app/"); // Replace with your server address
+const socket = io("https://video-server-vobd.onrender.com"); // Replace with your server address
 
 function App() {
   const [roomID, setRoomID] = useState(""); 
